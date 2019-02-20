@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Pink-form</title>
+	</head>
+	<body class="form">
+		<header class="page-header">
+			<div class="page-header__wrapper">
+				<a class="page-header__logo" href="#"><img src="#" alt="logo" class="page-header__logo-image">
+				</a>
+				<p class="page-header__logo-name">PINK</p>
+			</div>
+			
+			<nav class="main-nav">
+				<div class="main-nav__wrapper">
+					<button class="main-nav__toggle" type="button">
+					Открыть меню
+					</button>
+					<ul class="main-nav__list site-list">
+						<li class="site-list__item">
+							<a href="#">Главная</a>
+						</li>
+						<li class="site-list__item">
+							<a href="#">Фотографии</a>
+						</li>
+						<li class="site-list__item">
+							<a href="#">Конкурс</a>
+						</li>
+						<li class="site-list__item">
+							<a href="#">Html Academy</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+			<p class="page-header__title">Конкурс на самое безбашенное путешествие с Пинк</p>
+		</header>
+		<main class="main-form">
+			<section class="story">
+				<h2 class="story__header">Поделитесь своей историей и получите шанс выиграть ценный приз — 1000 миль на вашу бонусную карту! Пожалуйста, заполните форму ниже:</h2>
+				
+				<form action="#" method="post" class="story__form">
+					<div class="story__wrapper">
+						<fieldset class="story__autor">
+							<ul class="story__autor-list">
+								<li class="story__autor-item">
+									<label class="story__autor-label" for="surname">Фамилия</label>
+									<input class="story__autor-surname" type="text" name="surname" id="surname" placeholder="Укажите вашу фамилию *">
+								</li>
+								<li class="story__autor-item">
+									<label class="story__autor-label" for="name">Имя</label>
+									<input class="story__autor-name" type="text" name="name" id="name" placeholder="Укажите ваше имя *">
+								</li>
+								<li class="story__autor-item">
+									<label class="story__autor-label" for="patronym">Отчество</label>
+									<input class="story__autor-patronym" type="text" name="patronym" id="patronym" placeholder="Ну и отчество тоже">
+								</li>
+							</ul>
+						</fieldset>
+						<fieldset class="story__apps">
+							<legend class="story__title">С каким приложением путешествовали?</legend>
+							<ul class="story__apps-list">
+								<li class="story__apps-item">
+									<label class="story__apps-label" for="iOS">Pink для iOS</label>
+									<input class="story__apps-choice visually-hidden" type="radio" name="iOS" id="iOS">
+								</li>
+								<li class="story__apps-item">
+									<label class="story__apps-label" for="Android">Pink на Android</label>
+									<input class="story__apps-choice visually-hidden" type="radio" name="Android" id="Android">
+								</li>
+								<li class="story__apps-item">
+									<label class="story__apps-label" for="WPhone">Windows Phone</label>
+									<input class="story__apps-choice visually-hidden" type="radio" name="WPhone" id="WPhone">
+								</li>
+							</ul>
+						</fieldset>
+						<fieldset class="story__contacts">
+							<legend class="story__title">Контактная информация</legend>
+							<ul class="story__contacts-list">
+								<li class="story__contacts-item">
+									<label class="story__contacts-label" for="phone-number">Номер телефона</label>
+									<input class="story__autor-number" type="text" name="phone-number" id="phone-number" placeholder="Номер, пожалуйста">
+								</li>
+								<li class="story__autor-item">
+									<label class="story__contacts-label" for="mail">Адрес почты</label>
+									<input class="story__autor-mail" type="text" name="mail" id="mail" placeholder="Введите почту *">
+								</li>
+							</ul>
+						</fieldset>
+						<fieldset class="story__achievement">
+							<legend class="story__title">Ваши безбашенные достижения в путешествии</legend>
+							<ul class="story__achievement-list">
+								<li class="story__achievement-item">
+									<label class="story__achievement-label" for="selfie">Сделал селфи с акулой</label>
+									<input class="story__achievement-choice visually-hidden" type="checkbox" name="selfie" id="selfie" checked>
+								</li>
+								<li class="story__achievement-item">
+									<label class="story__achievement-label" for="norris">Видел Чака Норриса</label>
+									<input class="story__achievement-choice visually-hidden" type="checkbox" name="norris" id="norris">
+								</li>
+								<li class="story__achievement-item">
+									<label class="story__achievement-label" for="turret">Удержал башню</label>
+									<input class="story__achievement-choice visually-hidden" type="checkbox" name="turret" id="turret" checked>
+								</li>
+								<li class="story__achievement-item">
+									<label class="story__achievement-label" for="sunburned">Обгорел на пляже</label>
+									<input class="story__achievement-choice visually-hidden" type="checkbox" name="sunburned" id="sunburned" checked>
+								</li>
+								<li class="story__achievement-item">
+									<label class="story__achievement-label" for="souvenir">Накупил сувениров</label>
+									<input class="story__achievement-choice visually-hidden" type="checkbox" name="souvenir" id="souvenir">
+								</li>
+								<li class="story__achievement-item">
+									<label class="story__achievement-label" for="hotel">Разгромил отель</label>
+									<input class="story__achievement-choice visually-hidden" type="checkbox" name="hotel" id="hotel">
+								</li>
+							</ul>
+						</fieldset>
+						<fieldset class="story__emotion">
+							<legend class="story__title">Опишите свои эмоции</legend>
+							<label class="story__emotion-label visually-hidden" for="emotion">Ваши эмоции</label>
+							<textarea class="story__emotion-letter" name="emotion" id="emotion" cols="30" rows="5" placeholder="Можно прям в красках, не стесняясь в выражениях"></textarea>
+						</fieldset>
+					</div>
+					<button class='story__form-btn' type='submit'>Отправить форму</button>
+					<small class="story__legend"><sup>*</sup> — обязательные для заполнения поля</small>
+				</form>
+			</section>
+			<footer class="page-footer">
+				<img src="#" alt="#" class="page-footer__logo">
+				<ul class="page-footer__social social__list">
+					<li class="social__item">
+						<a class="social__btn
+						social__btn--twitter" href="#">twitter</a>
+					</li>
+					<li class="social__item">
+						<a class="social__btn
+						social__btn--facebook" href="#">facebook</a>
+					</li>
+					<li class="social__item">
+						<a class="social__btn
+						social__btn--youtube" href="#">youtube</a>
+					</li>
+				</ul>
+				<p class="page-footer__copyrate">
+					Разработано
+				</p>
+			</footer>
+		</main>
+	</body>
+</html>
