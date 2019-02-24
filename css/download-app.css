@@ -1,0 +1,42 @@
+.download-app {
+  background-color: #1d2631;
+  margin-top: -3px; }
+
+.download-app__button {
+  width: 280px;
+  margin-left: 20px;
+  margin-top: 25px;
+  margin-bottom: 30px;
+  padding: 15px;
+  border: 3px solid white;
+  border-radius: 25px;
+  background-color: #1d2631;
+  color: white;
+  font: inherit;
+  line-height: 18px;
+  font-weight: 700; }
+
+.download-app__os {
+  list-style: none; }
+
+.download-app__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0; }
+
+.download-app__accessibility {
+  color: #afb0b3;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 300;
+  text-align: center;
+  padding-left: 28px;
+  padding-right: 28px;
+  padding-bottom: 30px; }

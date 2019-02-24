@@ -1,0 +1,15 @@
+.slider {
+  position: relative;
+  min-height: 300px; }
+
+.slider__item {
+  position: absolute; }
+
+.slider__item--1 {
+  display: none; }
+
+.slider__item--2 {
+  display: block; }
+
+.slider__item--3 {
+  display: none; }

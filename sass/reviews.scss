@@ -1,0 +1,28 @@
+.reviews__wrapper {
+	min-height: 380px;
+	text-align: center;
+}
+.reviews__autor {
+line-height: 30px;
+  font-weight: 700;
+  font-style: normal;
+
+  }
+ .reviews__text {
+ 	line-height: 30px;
+ 	font-size: 14px;
+ }
+ .reviews {
+ 	margin-top: 20px;
+ 	
+ }
+ .reviews__item {
+ 	border: 0px solid black;
+ 	margin: 0;
+  padding: 0 20px;
+ }
+ .reviews__toggles {
+	position: absolute;
+	left: 35%;
+top: 220px;
+}

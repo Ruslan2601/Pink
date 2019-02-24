@@ -1,0 +1,19 @@
+.site-list__item {
+  background-color: #283645;
+  list-style: none;
+  color: #a4a7ac; }
+
+.site-list__item-link {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 700; }
+
+.site-list {
+  display: none;
+  width: 100%;
+  margin: 0;
+  padding: 0; }
+
+.site-list__item {
+  border-bottom: 1px solid black;
+  border-top: 1px solid #485461; }

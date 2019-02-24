@@ -1,0 +1,23 @@
+.page-header__wrapper {
+min-height: 70px;
+border-bottom: 1px solid black;
+background-color: hsla(213,41,9,0.6);
+}
+.page-header {
+background-image: url("../img/back-mobile@1x.jpg.png");
+background-repeat: no-repeat;
+}
+.page-header__img-display {
+
+min-height: 465px;
+background-image: url("../img/Layer 155.jpg");
+background-repeat: no-repeat;
+background-size: 110px 195px;
+background-position: 105px 182px;
+}
+.page-header__img-hand {
+	min-height: 465px;
+background-image: url("../img/iphone-5-in-hand-png.png");
+background-repeat: no-repeat;
+background-position: 0 148px;
+}

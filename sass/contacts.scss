@@ -1,0 +1,49 @@
+.contacts__header {
+	font-size: 24px;
+  line-height: auto;
+  font-weight: 300;
+  text-align: center;
+}
+.contacts__list {
+	list-style: none;
+	 text-align: center;
+	 padding: 0;
+}
+.contacts__title {
+	
+	line-height: auto;
+  font-weight: 700;
+  // padding-bottom: 0px;
+  // margin-bottom: -10px;
+}
+.contacts__discription {
+	
+	font-size: 24px;
+  line-height: auto;
+  font-weight: 300;
+  color: #d22856;
+  margin: 0;
+  padding: 0 20px;
+
+}
+.contacts__item {
+	margin-bottom: 20px;
+
+}
+.contacts__map {
+	clip-path: 
+    polygon(
+      0% 0%,     /* верхняя левая */
+      0% 0%,     /* верхняя левая */
+      50% 20%,    /* верхняя правая */
+      100% 0%,   /* верхняя правая */
+      100% 100%,  /* нижняя правая */
+      50% 100%,  /* нижняя правая */
+      50% 100%,   /* нижняя левая */
+      0 100%      /* нижняя левая */
+    );
+	background-image: url("../img/map.png");
+	min-height: 170px;
+	background-repeat: no-repeat;
+	background-position: 0px -440px;
+}

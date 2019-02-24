@@ -1,0 +1,42 @@
+.price__wrapper {
+  background-color: #f2f2f2;
+  padding-top: 50px;
+  padding-bottom: 60px;
+  -webkit-clip-path: polygon(0% 0%, 0% 10%, 0% 10%, 100% 0%, 100% 100%, 0 100%);
+  clip-path: polygon(0% 0%, 0% 10%, 0% 10%, 100% 0%, 100% 100%, 0 100%); }
+
+.price__item {
+  padding: 15px;
+  font-size: 14px;
+  line-height: 30px;
+  background-color: white;
+  border: 2px solid #e5e5e5;
+  border-collapse: collapse;
+  border-top: none;
+  text-transform: uppercase;
+  min-height: 60px; }
+
+.price__list {
+  padding: 0 20px;
+  list-style: none; }
+
+.price__head {
+  text-transform: uppercase;
+  min-height: 80px;
+  text-align: center;
+  width: 280px;
+  background-color: #283645;
+  color: white;
+  line-height: 30px;
+  font-weight: 700;
+  padding: 10px 0; }
+
+.price__head-sale {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 300; }
+
+.table__toggles {
+  position: absolute;
+  left: 35%;
+  top: 340px; }
