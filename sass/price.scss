@@ -1,50 +1,26 @@
 .price__wrapper {
-	background-color: #f2f2f2;
-	padding-top: 50px;
-	padding-bottom: 60px;
-	clip-path: 
-    polygon(
-      0% 0%,     /* верхняя левая */
-      0% 10%,     /* верхняя левая */
-      0% 10%,    /* верхняя правая */
-      100% 0%,   /* верхняя правая */
-      100% 100%,  /* нижняя правая */
-      0 100%      /* нижняя левая */
-    );
+    width: 100%;
+    overflow: hidden; 
 }
-.price__item {
-	padding: 15px;
-	font-size: 14px;
-  line-height: 30px;
-background-color: white;
-border: 2px solid #e5e5e5;
-border-collapse: collapse;
-border-top: none;
-text-transform: uppercase;
-min-height: 60px;
+.price__table {
+	width: 840px;
+    box-sizing: border-box;
+    transform: translateX(-130px);
+}
+@media screen and (min-device-width: 660px) {
+.price__table {
+ width: 620px;
+ transform: none;
+}
 }
 .price__list {
-	padding: 0 20px;
-	list-style: none;
+display: flex;
+    flex-direction: column;
+    align-items: center;
+box-sizing: border-box;
 }
-.price__head {
-	text-transform: uppercase;
-	min-height: 80px;
-	text-align: center;
-	width: 280px;
-background-color: #283645;
-color: white;
- line-height: 30px;
-  font-weight: 700;
-  padding: 10px 0;
+@media screen and (min-device-width: 1200px) {
+.price__table {
+ width: 940px;
 }
-.price__head-sale {
-font-size: 24px;
-  line-height: 30px;
-  font-weight: 300;
-}
-.table__toggles {
-  position: absolute;
-	left: 35%;
-top: 340px;
 }

@@ -1,42 +1,106 @@
-.download-app {
+.download-app__wrapper {
   background-color: #1d2631;
-  margin-top: -3px; }
+  text-align: center; }
+
+.download-app__header {
+  display: none; }
 
 .download-app__button {
   width: 280px;
-  margin-left: 20px;
   margin-top: 25px;
   margin-bottom: 30px;
   padding: 15px;
   border: 3px solid white;
   border-radius: 25px;
-  background-color: #1d2631;
+  background-color: transparent;
   color: white;
   font: inherit;
   line-height: 18px;
   font-weight: 700; }
 
-.download-app__os {
-  list-style: none; }
+.download-app__os--iphone {
+  margin-left: -40px; }
+
+.download-app {
+  background-color: #1d2631;
+  text-align: center;
+  margin-bottom: -10px; }
 
 .download-app__list {
+  list-style: none;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
   -ms-flex-pack: distribute;
   justify-content: space-around;
-  margin: 0;
-  padding: 0; }
+  margin-left: auto;
+  margin-right: auto;
+  width: 215px; }
 
 .download-app__accessibility {
+  width: 300px;
   color: #afb0b3;
   font-size: 14px;
   line-height: 24px;
   font-weight: 300;
   text-align: center;
-  padding-left: 28px;
-  padding-right: 28px;
-  padding-bottom: 30px; }
+  padding-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto; }
+
+@media screen and (max-width: 659px) {
+  .download-app__wrapper::before {
+    position: absolute;
+    content: "";
+    width: 288px;
+    height: 286px;
+    top: -285px;
+    left: -40px;
+    background-image: url(img/mob.png);
+    background-repeat: no-repeat;
+    background-size: 288px 286px; }
+  .download-app__wrapper {
+    position: relative;
+    width: 280px;
+    margin: 0 auto; }
+  .download-app__accessibility {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-left: 25px;
+    padding-right: 25px;
+    width: 280px; } }
+
+@media screen and (min-device-width: 660px) {
+  .download-app {
+    background-color: transparent;
+    width: 300px;
+    margin: 0 auto;
+    padding-right: 300px;
+    padding-bottom: 40px;
+    padding-top: 150px;
+    background-image: url(img/mob.png);
+    background-repeat: no-repeat;
+    margin-bottom: -140px;
+    background-position: 0px, 0px; }
+  .download-app__wrapper {
+    background-color: transparent; }
+  .download-app__header {
+    width: 200px;
+    display: inline-block;
+    font-size: 40px;
+    line-height: auto;
+    font-weight: 300;
+    color: white; }
+  .download-app__accessibility {
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; } }
+
+@media screen and (min-device-width: 1200px) {
+  .download-app {
+    padding-right: 700px;
+    background-position: 250px, 50px;
+    margin-top: -35px; } }
